@@ -159,6 +159,9 @@ h3{
 }
 
 @media (max-width:820px){
+  .container-fluid{
+  padding:3% 7% 7.3%;
+  }
   .title-head{
     font-family: "Montserrat",sans-serif;
     font-size: 6rem;
@@ -184,7 +187,17 @@ h3{
   .t-img{
     width: 75%;
   }
+  
+  #features{
+  padding:7% 5%;
+  background-color: #fff;
+  }
 
+.feature-box{
+  text-align: center;
+  padding: 3%;
+  }
+  
   #features h3{
     font-size: 6rem;
   }
