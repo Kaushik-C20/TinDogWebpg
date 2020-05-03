@@ -159,6 +159,42 @@ h3{
 }
 
 @media (max-width:700px){
+  .title-head{
+    font-family: "Montserrat",sans-serif;
+    font-size: 4.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+  }
+  .navbar-brand{
+    font-family: "Monoton";
+    font-size: 4.0rem;
+    font-weight:500;
+  }
+
+  .nav-item{
+    padding: 0 18px 0 18px;
+  }
+  .nav-link{
+    font-size: 1.4rem;
+    font-weight:700;
+  }
+  .download{
+    margin: 5% 5% 8% 0;
+  }
+  .t-img{
+    width: 65%;
+  }
+
+  #features h3{
+    font-size: 3rem;
+  }
+  #features p{
+    font-size: 2rem;
+  }
+  .icon{
+    font-size: 4rem;
+  }
+
   .cta-head{
     font-size:2.5rem;
     padding: 5% 3%;
