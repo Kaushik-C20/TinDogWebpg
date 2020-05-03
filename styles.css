@@ -1,0 +1,191 @@
+body{
+  font-family: "Montserrat";
+}
+#title{
+  background-color: #ff4c68;
+  color:#fff;
+}
+.container-fluid{
+  padding:3% 15% 7.3%;
+}
+.title-head{
+  font-family: "Montserrat",sans-serif;
+  font-size: 3.7rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+/* navigation bar */
+
+.navbar{
+  padding:0 0 4.8rem 0;
+}
+
+.navbar-brand{
+  font-family: "Monoton";
+  font-size: 3.0rem;
+  font-weight:500;
+}
+
+.nav-item{
+  padding: 0 18px 0 18px;
+}
+.nav-link{
+  font-size: 1.4rem;
+  font-weight:700;
+}
+.download{
+  margin: 5% 5% 8% 0;
+}
+.t-img{
+  width: 60%;
+  margin-left:5%;
+  /* margin-top: 2.5%; */
+  transform: rotate(25deg);
+  position: absolute;
+  right:25%; /* the margin is 30% from right */
+  /* as img is abs,container section will now only have a padding of the buttons and ignore the img's padding */
+}
+
+/* features */
+#features{
+  padding:7% 10%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color:#ff4c68;
+}
+
+.h-feat{
+  font-family: "Montserrat",sans-serif;
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+.p-feat{
+  color:#8f8f8f;
+}
+
+/* testimonials */
+
+#testimonials{
+  text-align: center;
+  background-color: #ef8172;
+  color:white;
+}
+.carousel-item{
+  padding:7% 15%;
+}
+
+h2{
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.test-img{
+  width:15%;
+  border-radius: 100%; /*to get a circle*/
+  margin:10px;
+}
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width:15%;
+  margin:20px 20px 50px;
+}
+
+/* Pricing */
+
+#pricing{
+  text-align: center;
+  padding: 5% 10%;
+}
+
+h3{
+  font-weight: bold;
+}
+
+.price-col{
+  padding: 3% 2%;
+}
+
+@media (max-width:1028px) {
+  .row{
+    text-align: center;
+  }
+
+  .t-img{
+    position: static;
+    transform: rotate(0);
+    width: 60%;
+  }
+}
+
+/* Last section */
+
+#cta{
+  background-color: #ff4c68;
+  color:#fff;
+  text-align: center;
+  padding: 5% 10%;
+}
+.cta-head{
+  font-family: "Montserrat",sans-serif;
+  font-weight:900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  padding: 3% 10%;
+  margin-bottom: 3%;
+}
+.cta-button{
+  margin: 0 3% 3%;
+}
+
+@media (max-width:700px){
+  .cta-head{
+    font-size:2.5rem;
+    padding: 5% 3%;
+  }
+  .cta-button{
+    margin:2% 3%;
+  }
+}
+
+#footer{
+  text-align: center;
+}
+.foot{
+  margin: 7% 3% 2% 3%;
+}
+.foot-par{
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 1.5rem;
+  color:#8f8f8f;
+  padding-bottom: 3%;
+}
+@media (max-width:600px){
+  .foot-par{
+    font-size: 1.2rem;
+  }
+  .cta-button{
+    margin-bottom: 8%;
+  }
+}
